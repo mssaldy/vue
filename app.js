@@ -1,12 +1,14 @@
 new Vue({
   el: '#vue-app',
   data: {
-    name: 'Saldy',
-    job: 'Web Developer'
+
   },
   methods: {
-    greet: function(time) {
-      return 'Good ' + time + ' ' + this.name;
+    logName: function() {
+      console.log('You entered your name')
+    },
+    logAge: function() {
+      console.log('You entered your age')
     }
   }
 })
